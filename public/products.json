@@ -1,0 +1,68 @@
+[
+    {
+        "id": "01",
+        "name": "super backpack",
+        "price": "1100",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "02",
+        "name": "fav bag",
+        "price": "1200",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "03",
+        "name": "stylish bag",
+        "price": "1000",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "04",
+        "name": "cool backpac",
+        "price": "900",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "05",
+        "name": "lava",
+        "price": "1250",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "06",
+        "name": "max",
+        "price": "1350",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "07",
+        "name": "tourirst",
+        "price": "1200",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "08",
+        "name": "bd traveller",
+        "price": "1200",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "09",
+        "name": "shosta",
+        "price": "700",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "10",
+        "name": "max pro",
+        "price": "1150",
+        "img": "bag.jpg"
+    },
+    {
+        "id": "11",
+        "name": "cool bag",
+        "price": "880",
+        "img": "bag.jpg"
+    }
+]
