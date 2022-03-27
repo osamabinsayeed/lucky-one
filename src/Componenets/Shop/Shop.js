@@ -8,12 +8,16 @@ const Shop = () => {
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
+    const handleClick = (product) => {
+        console.log(product);
+    }
     return (
         <div className='shop-container'>
             <div className="bag-container">
                 {
                     product.map(product => <Product
                         key={product.id}
+                        handleClick={handleClick}
                         product={product}
                     ></Product>)
                 }
