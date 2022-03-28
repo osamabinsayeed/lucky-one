@@ -22,8 +22,12 @@
     background-color: coral;
     border-radius:0px 0px 20px 20px;
     border: none;
-   position: absolute;
-   bottom: 0;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 .cart-btn:hover{
     background-color: chocolate;
