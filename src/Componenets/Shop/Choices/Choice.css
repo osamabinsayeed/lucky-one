@@ -1,0 +1,16 @@
+.bags{
+    position: sticky;
+    top: 0;
+}
+.random-btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    background-color: coral;
+    margin-bottom: 50px;
+}
+.random-btn:hover{
+    background-color: chocolate;
+}
