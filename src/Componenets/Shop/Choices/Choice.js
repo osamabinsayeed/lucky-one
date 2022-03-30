@@ -1,18 +1,29 @@
 import './Choice.css'
 import RandomBag from '../../RandomBag/RandomBag';
+import { useState } from 'react';
 const Choice = ({ bagChoice }) => {
     let bagName = [];
-    // const handleRandom = (bagChoice) => {
-    //     for (let bag of bagChoice) {
+    const [bagchoice, setBagchoice] = useState([]);
 
-    //         bagName = [...bagName, bag.name];
-    //         console.log(bagName);
-    //     }
-    // }
     for (let bag of bagChoice) {
 
         bagName = [...bagName, bag.name];
     }
+    // let bagchoice = '';
+    let handleRandom = (randomBag) => {
+        let bagToChoose = '';
+        let maxNumber = randomBag.length;
+        let randomNumber = Math.floor((Math.random() * maxNumber));
+        if (randomNumber == randomBag.indexOf(randomBag[randomNumber])) {
+            bagToChoose = randomBag[randomNumber];
+
+        }
+
+        setBagchoice(bagToChoose);
+    }
+    // console.log(bagchoice);
+
+
 
 
     // console.log(bagName.length);
@@ -34,7 +45,8 @@ const Choice = ({ bagChoice }) => {
             </div>
             <div>
                 <RandomBag
-                    // handleRandom={handleRandom}
+                    handleRandom={handleRandom}
+                    bagChoice={bagchoice}
                     bagName={bagName}
                 ></RandomBag>
             </div>
