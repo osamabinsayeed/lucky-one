@@ -46,7 +46,7 @@ const Choice = ({ bagChoice }) => {
             <div>
                 <RandomBag
                     handleRandom={handleRandom}
-                    bagChoice={bagchoice}
+                    bagchoice={bagchoice}
                     bagName={bagName}
                 ></RandomBag>
             </div>
