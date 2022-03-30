@@ -22,13 +22,6 @@ const Choice = ({ bagChoice }) => {
 
         setBagchoice(bagToChoose);
     }
-    // console.log(bagchoice);
-    console.log(bagChoice);
-
-
-
-    // console.log(bagName.length);
-
 
     return (
         <div className="bags">

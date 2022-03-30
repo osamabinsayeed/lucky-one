@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
-import RandomBag from '../RandomBag/RandomBag';
+
+
 import './Choices/Choice'
 import Choice from './Choices/Choice';
 import './Shop.css'
@@ -13,7 +14,7 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
     const handleClick = (product) => {
-        // console.log(product);
+
         const newChoice = [...bagChoice, product];
         setBagChoice(newChoice);
     }
@@ -53,6 +54,7 @@ const Shop = () => {
                 ></RandomBag> */}
 
 
+
             </div>
             <div className='answers'>
                 <div>
@@ -74,5 +76,6 @@ const Shop = () => {
         </div>
     );
 };
+
 
 export default Shop;

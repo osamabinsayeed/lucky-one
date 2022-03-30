@@ -1,6 +1,8 @@
 import React from 'react';
 import './RandomBag.css'
 
+
+
 const RandomBag = (props) => {
 
     let randomBag = props.bagName;
@@ -19,14 +21,14 @@ const RandomBag = (props) => {
             </div>
 
             <div>
-                <button onClick={() => props.handleChooseAgain(props.bagChoice)} className="remove-btn">
+                <button className="remove-btn" >
                     <p>
                         choose again
                     </p>
                 </button>
             </div>
 
-        </div>
+        </div >
     );
 };
 
