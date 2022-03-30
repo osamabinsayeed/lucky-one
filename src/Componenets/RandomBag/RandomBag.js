@@ -1,26 +1,9 @@
 import React from 'react';
 import './RandomBag.css'
+
 const RandomBag = (props) => {
 
-
-
     let randomBag = props.bagName;
-    // console.log(props.bagChoice);
-
-
-
-
-    // let randomBag = props.bagName;
-    // let bagToChoose = '';
-    // let maxNumber = randomBag.length;
-    // let randomNumber = Math.floor((Math.random() * maxNumber));
-    // if (randomNumber == randomBag.indexOf(randomBag      [randomNumber])) {
-    //     bagToChoose = randomBag[randomNumber];
-
-    // }
-
-
-
 
     return (
         <div>

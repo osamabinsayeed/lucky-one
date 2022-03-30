@@ -2,6 +2,7 @@ import './Choice.css'
 import RandomBag from '../../RandomBag/RandomBag';
 import { useState } from 'react';
 const Choice = ({ bagChoice }) => {
+
     let bagName = [];
     const [bagchoice, setBagchoice] = useState([]);
 
@@ -22,7 +23,7 @@ const Choice = ({ bagChoice }) => {
         setBagchoice(bagToChoose);
     }
     // console.log(bagchoice);
-
+    console.log(bagChoice);
 
 
 
@@ -45,6 +46,8 @@ const Choice = ({ bagChoice }) => {
             </div>
             <div>
                 <RandomBag
+                    bagChoice={bagChoice}
+
                     handleRandom={handleRandom}
                     bagchoice={bagchoice}
                     bagName={bagName}
